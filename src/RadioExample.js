@@ -1,12 +1,12 @@
 import React from "react";
 
 import {
+  resetUniqueIdCount,
+  setUniqueSeed,
   FormField,
   Radio,
   RadioGroup,
-  resetUniqueIdCount,
-  setUniqueSeed
-} from "@workday/canvas-kit-react";
+} from "@workday/canvas-kit-react/common";
 
 resetUniqueIdCount();
 setUniqueSeed("ck-radio-");
