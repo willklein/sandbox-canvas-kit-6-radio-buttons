@@ -1,15 +1,6 @@
 import React from "react";
 
-import {
-  resetUniqueIdCount,
-  setUniqueSeed,
-  FormField,
-  Radio,
-  RadioGroup,
-} from "@workday/canvas-kit-react";
-
-resetUniqueIdCount();
-setUniqueSeed("ck-radio-");
+import { FormField, Radio, RadioGroup } from "@workday/canvas-kit-react";
 
 export default function () {
   const [value, setValue] = React.useState("deep-dish");
