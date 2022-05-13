@@ -6,7 +6,7 @@ import {
   FormField,
   Radio,
   RadioGroup,
-} from "@workday/canvas-kit-react/common";
+} from "@workday/canvas-kit-react";
 
 resetUniqueIdCount();
 setUniqueSeed("ck-radio-");
